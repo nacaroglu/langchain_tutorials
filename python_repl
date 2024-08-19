@@ -1,0 +1,10 @@
+
+class PythonRepl(BaseTool):
+ """A tool for running python code in a REPL."""
+ name = "python_repl"
+ description = (
+ "A Python shell. Use this to execute python commands. "
+ "Input should be a valid python command. "
+ "If you want to see the output of a value, you should print it out"
+ "with `print(...)`."
+ )
